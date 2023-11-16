@@ -23,8 +23,8 @@ public class Main {
         product3.Show();
 
         // Kiểm tra tình trạng hàng
-        product1.Check();
-        product2.Check();
-        product3.Check();
+        product1.Checkquantity();
+        product2.Checkquantity();
+        product3.Checkquantity();
     }
 }

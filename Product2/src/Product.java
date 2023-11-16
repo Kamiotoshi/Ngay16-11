@@ -1,10 +1,10 @@
 public class Product {
     // Các thuộc tính
-    private String Productnumber;
-    private String Productname;
-    private double Price;
-    private int quantity;
-    private String unit;
+    String Productnumber;
+    String Productname;
+    double Price;
+    int quantity;
+    String unit;
 
     // Constructor
     public Product(String Productnumber, String Productname, double Price, int quantity, String unit) {
@@ -35,7 +35,7 @@ public class Product {
     }
 
     // Phương thức kiểm tra hàng còn/hết hàng
-    public void Check() {
+    public void Checkquantity() {
         if (quantity > 0) {
             System.out.println("Còn hàng. Số lượng hiện tại: " + quantity);
         } else {
